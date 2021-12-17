@@ -1,0 +1,53 @@
+
+.topo{
+	background-color: #87CEFA;
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+	font-family: 'arial black';
+	text-shadow: black 4px 5px 5px;
+
+}
+
+span {
+	color: #4F4F4F;
+	font-size: 20px;
+	
+}
+
+
+#img{
+	background-color:#87CEEB !important; 
+}
+
+ img {
+    max-width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+	#logo {
+	  width: 170px;
+	  height: 80px;
+	  float: right;
+
+	}
+  }
+  @media only screen and (max-width: 550px) {
+	#logo {
+	  width: 175px;
+	  height: 90px;
+	  float: right;
+
+	}
+  }
+
+  @media only screen and (min-width: 550px) {
+	#logo {
+	  width: 350px;
+	  height: 100px;
+	  float: right;
+
+	}
+  }
+
